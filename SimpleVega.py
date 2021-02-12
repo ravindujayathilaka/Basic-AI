@@ -60,7 +60,5 @@ def run_vega():
         talk('I am sorry. Can you repeat it again.')
 
 
-i = 1
-while i < 5:
-    run_vega()
-    i += 1
+run_vega()
+
